@@ -8,5 +8,5 @@ const publicDirectoryPath = path.join(__dirname, '../public');
 app.use(express.static(publicDirectoryPath));
 
 app.listen(port, () => {
-    console.log(`Server is ip on port ${port}!`);
+    console.log(`Server is on port ${port}!`);
 });
